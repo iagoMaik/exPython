@@ -1,0 +1,8 @@
+car = input('Digite algo: ')
+print('O tipo primitivo desse valor é', type(car))
+print('É alfabético. ', car.isalpha())
+print('É um número. ', car.isnumeric())
+print('É alfabético e numeral. ', car.isalnum())
+print('Está em minúsculo. ', car.islower())
+print('Está em MAIÚSCULO. ', car.isupper())
+print('Só tem espaço. ', car.isspace())
