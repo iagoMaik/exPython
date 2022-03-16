@@ -1,0 +1,6 @@
+m = float(input('Digite um tamanho (em metros): '))
+cm = m * (10 ** 2)
+mm = m * (10 ** 3)
+print('convertendo...')
+print('[cm] =', cm)
+print('[mm] =', mm)
